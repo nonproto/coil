@@ -9,14 +9,6 @@ import coil.transform.RoundedCornersTransformation
 import com.google.android.material.button.MaterialButton
 import com.squareup.contour.ContourLayout
 
-/*
- * Copyright (C) 2020 The Neko Manga Open Source Project
- *
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
-
 class MainView(context: Context) : ContourLayout(context) {
     val urls = listOf("https://mangadex.org/images/covers/39v1.jpg?1545761095", "https://mangadex.org/images/covers/39v2.jpg?1545761109")
     var pos = 0
