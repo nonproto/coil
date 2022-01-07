@@ -10,7 +10,7 @@ import com.google.android.material.button.MaterialButton
 import com.squareup.contour.ContourLayout
 
 class MainView(context: Context) : ContourLayout(context) {
-    val urls = listOf("https://mangadex.org/images/covers/39v1.jpg?1545761095", "https://mangadex.org/images/covers/39v2.jpg?1545761109")
+    val urls = listOf("https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/3573d948-fe54-4b81-9293-c74f5bb34c91.jpg", "https://uploads.mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/673d3da4-4e17-44d5-8012-38bbf85b18a3.jpg")
     var pos = 0
 
 
